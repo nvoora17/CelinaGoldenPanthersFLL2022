@@ -10,32 +10,37 @@ movement_motors.move(45,'cm') # moving the robot forwards
 # Mission 8 Watching Tv End
 
 # Mission Windmill Start
-movment_motors = MotorPair('A','B')
 
-movment_motors.set_default_speed(50)
-movment_motors.move(-10,'cm') #moving the robot backwards away from the last mission 
+movement_motors.move(-10,'cm') #moving the robot backwards away from the last mission 
 
 motor = Motor('B')
-# Rotate the motor 90 degrees clockwise
+# Rotate the motor 270 degrees clockwise
 motor.run_for_degrees(270)
 
-
-movment_motors.move(27,'cm')
+movement_motors.move(27,'cm')
 motor = Motor('A')
 motor.run_for_degrees(-540) #moving the robot twords the direction of th windmill
-movment_motors.set_default_speed(75)
-movment_motors.move(-3,'cm')
-movment_motors.move(17,'cm')
-movment_motors.move(-10,'cm')
-movment_motors.move(19,'cm')
-movment_motors.move(-10,'cm')
-movment_motors.move(17,'cm')
-movment_motors.move(-5,'cm')
+movement_motors.set_default_speed(70)
+movement_motors.move(-3,'cm')
+movement_motors.move(19,'cm')
+movement_motors.move(-10,'cm')
+movement_motors.move(19,'cm')
+movement_motors.move(-10,'cm')
+movement_motors.move(19,'cm')
+movement_motors.move(-10,'cm')
 
+#End of the windmill mission 
 
+#Start of hybrid car mission 
 
-movment_motors.move(-5,'cm')
+movement_motors.set_default_speed(50)
 
+movement_motors.move(-20,'cm')#moving the robot backwards away from the last mission
+motor = Motor('B')
+
+motor.run_for_degrees(400)#Rotate the motor 400 degrees clockwise
+movement_motors.move(50,'cm')#moving twoards the hybrid car 
+movment_motors.move(-10,'cm')#pushing the hybrid car 
 
 
 
