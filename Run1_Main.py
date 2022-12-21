@@ -38,7 +38,7 @@ movement_motors.set_default_speed(50)
 movement_motors.move(-40,'cm')#moving the robot backwards away from the last mission
 motor = Motor('B')
 
-motor.run_for_degrees(450)#Rotate the motor 515 degrees clockwise
+motor.run_for_degrees(470)#Rotate the motor 515 degrees clockwise
 movement_motors.move(36,'cm')#moving twoards the hybrid car 
 movement_motors.move(-3,'cm')
 
