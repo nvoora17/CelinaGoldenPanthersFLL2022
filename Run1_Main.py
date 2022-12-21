@@ -22,12 +22,12 @@ motor = Motor('A')
 motor.run_for_degrees(-538) #moving the robot twords the direction of th windmill
 movement_motors.set_default_speed(70)
 movement_motors.move(-3,'cm')
-movement_motors.move(19,'cm')
-movement_motors.move(-10,'cm')
-movement_motors.move(19,'cm')
-movement_motors.move(-10,'cm')
-movement_motors.move(20,'cm')
-movement_motors.move(-10,'cm')
+movement_motors.move(24,'cm')
+movement_motors.move(-15,'cm')
+movement_motors.move(24,'cm')
+movement_motors.move(-15,'cm')
+movement_motors.move(25,'cm')
+movement_motors.move(-15,'cm')
 
 #End of the windmill mission 
 
