@@ -46,6 +46,8 @@ motor.run_for_degrees(-300)#turning -300 degrees twoards the hybrid car
 
 movement_motors.move(-10,'cm')#pushing the hybrid car
 
+#End of hybrid car mission
 
+#Start of toy factory mission
 
 
